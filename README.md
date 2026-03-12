@@ -113,20 +113,14 @@ location: Brazil · Open to remote
   <img src="https://streak-stats.demolab.com?user=LukeSantossz&theme=github-dark-blue&hide_border=true&ring=3fb950&fire=3fb950&currStreakLabel=3fb950&background=0d1117&dates=8b949e&sideLabels=8b949e&currStreakNum=3fb950&sideNums=3fb950" />
 </a>
 
-<br/>
-
-<a href="https://github.com/LukeSantossz">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LukeSantossz&theme=github-dark&hide_border=true&bg_color=0d1117&color=8b949e&line=3fb950&point=3fb950&area=true&area_color=1a3a2a" width="95%"/>
-</a>
-
 </div>
 
 <br/>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=3fb950)](https://linkedin.com/in/SEU_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=3fb950)](mailto:SEU_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=3fb950)](https://www.linkedin.com/in/lucas-gon%C3%A7alvessz/)
+[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=3fb950)](mailto:lucassg2015@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=3fb950)](https://github.com/LukeSantossz)
 
 </div>
