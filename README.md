@@ -10,8 +10,7 @@ Work spans multi-agent RAG orchestration, on-device computer vision,
 and end-to-end NLP pipelines with Transformer fine-tuning.
 
 **Open to remote ML/AI engineering roles — international or Brazil-based.**
-
-<br/>
+##
 
 ### Featured Projects
 
@@ -20,41 +19,44 @@ and end-to-end NLP pipelines with Transformer fine-tuning.
 | [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Producers have no scalable access to precise agronomic knowledge — agronomists are costly and research literature is inaccessible at field level | Python · LangGraph · Qdrant · HuggingFace |
 | [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture assessment requires lab analysis or trained specialists — neither is viable for large properties in low-connectivity rural environments | Flutter · Dart · TFLite · Riverpod |
 | [**tweet-sentiment-analysis**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Generic sentiment classifiers fail on social media language — slang, sarcasm and platform-specific syntax cause unreliable outputs | Python · HuggingFace · FastAPI · Docker |
+##
 
-<br/>
-
-### Stack
+### My Knowledge Stack
 
 <div align="center">
 
-<sub>Language & Data</sub>
+**`Language & Data`**
+
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 </p>
 
-<sub>Deep Learning & Computer Vision</sub>
+**`Deep Learning & Computer Vision`**
+
 <p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
 </p>
 
-<sub>Agents & Vector Search</sub>
+**`Agents & Vector Search`**
+
 <p>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge"/>
 </p>
 
-<sub>Infra, Deployment & Mobile</sub>
+**`Infra, Deployment & Mobile`**
+
 <p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </p>
 
 </div>
