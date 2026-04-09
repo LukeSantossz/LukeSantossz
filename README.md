@@ -4,7 +4,7 @@
 
 <br/>
 
-AI Engineer building production-oriented ML systems for agribusiness —
+AI Engineer building production-oriented ML systems for agribusiness,
 one of the most data-rich and underserved verticals for applied AI globally.
 Work spans multi-agent RAG orchestration, on-device computer vision,
 and end-to-end NLP pipelines with Transformer fine-tuning.
@@ -16,9 +16,9 @@ and end-to-end NLP pipelines with Transformer fine-tuning.
 
 | Project | What it solves | Stack |
 |---------|----------------|-------|
-| [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Producers have no scalable access to precise agronomic knowledge — agronomists are costly and research literature is inaccessible at field level | Python · LangGraph · Qdrant · HuggingFace |
-| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture assessment requires lab analysis or trained specialists — neither is viable for large properties in low-connectivity rural environments | Flutter · Dart · TFLite · Riverpod |
-| [**tweet-sentiment-analysis**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Generic sentiment classifiers fail on social media language — slang, sarcasm and platform-specific syntax cause unreliable outputs | Python · HuggingFace · FastAPI · Docker |
+| [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Producers have no scalable access to precise agronomic knowledge, agronomists are costly and research literature is inaccessible at field level | Python · LangGraph · Qdrant · HuggingFace |
+| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture assessment requires lab analysis or trained specialists,  neither is viable for large properties in low-connectivity rural environments | Flutter · Dart · TFLite · Riverpod |
+| [**tweet-sentiment-analysis**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Generic sentiment classifiers fail on social media language,  slang, sarcasm and platform-specific syntax cause unreliable outputs | Python · HuggingFace · FastAPI · Docker |
 ##
 
 ### My Knowledge Stack
