@@ -1,26 +1,27 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a2a,100:3fb950&height=160&section=header&text=Lucas%20Gonçalves&fontSize=48&fontColor=3fb950&fontAlignY=38&desc=AI%20Engineer%20·%20NLP%20·%20Agents%20·%20Computer%20Vision&descAlignY=58&descSize=16&descColor=8b949e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a3a2a,100:3fb950&height=160&section=header&text=Lucas%20Gonçalves&fontSize=48&fontColor=3fb950&fontAlignY=38&desc=AI%20Engineer%20·%20RAG%20·%20NLP%20·%20Computer%20Vision&descAlignY=58&descSize=16&descColor=8b949e" width="100%"/>
 </div>
 
 <br/>
 
-AI/ML Engineer building production-oriented ML systems for agribusiness,
+AI/ML Engineer building applied machine-learning systems for agribusiness,
 one of the most data-rich and underserved verticals for applied AI globally.
-Work spans RAG systems with hallucination detection, on-device computer vision,
-time-series forecasting, and end-to-end NLP pipelines.
+Work spans RAG APIs with hallucination detection, on-device computer vision,
+time-series forecasting, and end-to-end NLP pipelines, with an emphasis on
+tested, reproducible engineering (typed code, unit tests, CI, Docker).
 
-**Open to remote ML/AI engineering roles — international or Brazil-based.**
+**Open to remote ML/AI engineering roles, international or Brazil-based.**
 
 ##
 
 ### Featured Projects
 
-| Project | What it solves | Stack |
-|---------|----------------|-------|
-| [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Producers lack scalable access to precise agronomic knowledge; agronomists are costly and research literature is inaccessible at field level | Python · FastAPI · Qdrant · Ollama |
-| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture assessment requires lab analysis or trained specialists; neither viable for large properties in low-connectivity rural environments | Flutter · Dart · TFLite · Riverpod |
-| [**pma-weather-forecasting**](https://github.com/LukeSantossz/pma-weather-forecasting) | Short-term temperature forecasting for agriculture, energy and public-safety planning across 211 countries | Python · LightGBM · scikit-learn · Prophet |
-| [**tweet-sentiment-analysis**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Generic sentiment classifiers fail on social-media language; slang, sarcasm and platform-specific syntax cause unreliable outputs | Python · Rust · HuggingFace · Polars |
+| Project | What it solves | Highlight | Stack |
+|---------|----------------|-----------|-------|
+| [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Producers lack scalable access to precise agronomic knowledge; agronomists are costly and research literature is inaccessible at field level | Self-hostable RAG API with a continuous 0.0 to 1.0 semantic-entropy hallucination score; 205 tests, ~83% coverage | Python · FastAPI · Qdrant · Ollama |
+| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture assessment requires lab analysis or trained specialists; neither viable for large properties in low-connectivity rural environments | On-device classifier across 5 texture classes; 3rd of 1,300+ at FETEPS 2025, paper accepted at ICPA 2026 | Flutter · Dart · TFLite · Riverpod |
+| [**weather-forecasting**](https://github.com/LukeSantossz/pma-weather-forecasting) | Short-term temperature forecasting for agriculture, energy and public-safety planning across 211 countries | LightGBM at 0.19°C RMSE, ~75% better than the Prophet baseline | Python · LightGBM · scikit-learn · Prophet |
+| [**tweet-sentiment-analysis**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Generic sentiment classifiers fail on social-media language; slang and platform-specific syntax cause unreliable outputs | RoBERTa fine-tuning pipeline with a 0.71 macro F1 zero-shot baseline; Rust CLI ~42x faster preprocessing | Python · Rust · HuggingFace · Polars |
 
 ##
 
@@ -49,7 +50,6 @@ time-series forecasting, and end-to-end NLP pipelines.
 
 **`LLM & RAG`**
 <p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
 </p>
