@@ -82,8 +82,6 @@ tested, reproducible engineering (typed code, unit tests, CI, Docker).
 </a>
 
 <br/><br/>
-
-![](https://komarev.com/ghpvc/?username=LukeSantossz&color=3fb950&style=flat-square&label=PROFILE+VIEWS)
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,50:1a3a2a,100:0d1117&height=100&section=footer" width="100%"/>
