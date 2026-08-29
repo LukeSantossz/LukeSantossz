@@ -9,6 +9,9 @@ I work on the part after the model works: grounding, verification, and the limit
 
 `Open to remote roles, international or Brazil-based` · `GMT-3`
 
+<a href="https://www.linkedin.com/in/lucas-goncalvessz/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://lukesz-portifolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+
 </div>
 
 ##
@@ -18,9 +21,9 @@ I work on the part after the model works: grounding, verification, and the limit
 | | What it is | Proof | Stack |
 |---|---|---|---|
 | [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Self-hostable RAG API that scores its own confidence | Agent gate calibrated to **96.7% / 3.3%** TPR-FPR · 372 tests, 89.8% coverage · 15 ADRs | `Python` `FastAPI` `Qdrant` `Ollama` `LangGraph` |
-| [**tweet-sentiment**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Fine-tuning that came out worse, and the fix | **+51.9% macro F1** after error analysis found the real cause · 28.5× faster Rust preprocessing | `Python` `Rust` `PyTorch` `Polars` |
-| [**weather-forecast**](https://github.com/LukeSantossz/weather-forecast) | scikit-learn model running in the browser | **Matched to 1e-6** against Python · found leakage in my own results and retracted the numbers | `Python` `TypeScript` `LightGBM` |
-| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture from a photo, fully offline | **3rd of 1,300+** at FETEPS 2025 · paper published at ICPA/ConBAP 2026 | `Flutter` `Dart` `TFLite` |
+| [**tweet-sentiment**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Sentiment classification fine-tuned end to end | **0.887 macro F1**, +51.9% over the frozen-features baseline · **28.5× faster** Rust preprocessing, parity validated at 3 scales | `Python` `Rust` `PyTorch` `Polars` |
+| [**weather-forecast**](https://github.com/LukeSantossz/weather-forecast) | scikit-learn model running in the browser | **Matched to 1e-6** against Python · 200-tree forest serialised and traversed in TypeScript · test-first across 20+ features, traceable in the log | `Python` `TypeScript` `LightGBM` |
+| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture from a photo, fully offline | **3rd of 1,300+** at FETEPS 2025 · paper published at ICPA/ConBAP 2026 · on-device inference in a killable isolate, group-aware dataset splits | `Flutter` `Dart` `TFLite` |
 
 ### Built at work
 
@@ -29,7 +32,7 @@ Closed source. Numbers verified against the repositories I contributed to.
 | | What it is | Proof | Stack |
 |---|---|---|---|
 | **Agent code-generation platform** | Spec in, working application out | **103k lines, 3,397 tests** · generated code isolated in per-job micro-VMs · deterministic security gate | `Python` `LangGraph` `Kata` `Docker` |
-| **AI advising platform** | Grounded answers over institutional data | **Largest backend contributor (~42%)** · hybrid retrieval built from scratch · 854 tests | `Python` `FastAPI` `pgvector` `Anthropic` |
+| **AI advising platform** | Grounded answers over institutional data | Hybrid retrieval **built from scratch** over pgvector · refuse-before-call gate and post-answer verifier · **854 tests** | `Python` `FastAPI` `pgvector` `Anthropic` |
 
 ##
 
