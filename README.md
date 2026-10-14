@@ -27,13 +27,13 @@ I work on the part after the model works: grounding, verification, and the limit
 | [**my-framework**](https://github.com/LukeSantossz/my-framework) | Engineering standards, enforced inside AI agents | Cross-provider review gate · 101 shell tests · reused across 5 repositories | `Bash` `Node.js` `GitHub Actions` |
 | [**AutoMQ** `#3261`](https://github.com/AutoMQ/automq/pull/3261) | Accepted contribution to a Kafka-compatible streaming platform | Response-size validation so a request/response mismatch **fails cleanly instead of crashing**, shipped with **157 lines of tests** | `Java` |
 
-### Built at work
+### Built on teams
 
 Closed source. Numbers verified against the repositories I contributed to.
 
 | | What it is | Proof | Stack |
 |---|---|---|---|
-| **Agent code-generation platform** | Spec in, working application out | **Seven specialist agents** under a coordinator that delegates · generated code isolated in per-job micro-VMs · release verdict from **deterministic scanner receipts**, not the model | `Python` `LangGraph` `Kata` `Cloud Run` |
+| **Agent code-generation platform** | Spec in, working application out | **Up to 12 specialist agent phases** in 4 deterministic waves (code replaced the LLM orchestrator) · security verdict from **scanner receipts** judged by a pure policy function, not the model · **9-layer** agent guardrail stack | `Python` `LangGraph` `Kata` `Cloud Run` |
 | **AI advising platform** | Grounded answers over institutional data | Hybrid retrieval **built from scratch** over pgvector · refuse-before-call gate and post-answer verifier · **1,149 tests** | `Python` `FastAPI` `pgvector` `Anthropic` |
 
 ##
