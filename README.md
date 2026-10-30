@@ -1,10 +1,10 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:132f4c,100:58a6ff&height=160&section=header&text=Lucas%20Gonçalves&fontSize=48&fontColor=58a6ff&fontAlignY=38&desc=AI%20Engineer%20·%20LLM%20Agents%20·%20RAG%20·%20Data%20Pipelines%20on%20GCP&descAlignY=58&descSize=16&descColor=8b949e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:132f4c,100:58a6ff&height=160&section=header&text=Lucas%20Gonçalves&fontSize=48&fontColor=58a6ff&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20Agents%20·%20RAG%20·%20AI%20Guardrails%20%26%20Evaluation&descAlignY=58&descSize=16&descColor=8b949e" width="100%"/>
 </div>
 
 <div align="center">
 
-**AI Engineer building LLM agents, RAG systems and data pipelines on GCP.**
+**AI Engineer building LLM agents, RAG systems and AI guardrails & evaluation.**
 I work on the part after the model works: grounding, verification, and the limits that keep it honest.
 
 `Open to remote roles, international or Brazil-based` · `GMT-3`
@@ -20,21 +20,21 @@ I work on the part after the model works: grounding, verification, and the limit
 
 | | What it is | Proof | Stack |
 |---|---|---|---|
-| [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Self-hostable RAG API that scores its own confidence | Agent gate calibrated to **96.7% / 3.3%** TPR-FPR · 372 tests, 89.8% coverage · 15 ADRs | `Python` `FastAPI` `Qdrant` `Ollama` `LangGraph` |
-| [**tweet-sentiment**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Sentiment classification fine-tuned end to end | **0.887 macro F1**, +51.9% over the frozen-features baseline · **28.5× faster** Rust preprocessing, parity validated at 3 scales | `Python` `Rust` `PyTorch` `Polars` |
+| [**sb100_agents**](https://github.com/LukeSantossz/sb100_agents) | Self-hostable RAG API that scores its own confidence | Agent gate calibrated to **96.7% / 3.3%** TPR-FPR · 370 tests, 90% line coverage · 15 ADRs | `Python` `FastAPI` `Qdrant` `Ollama` `LangGraph` |
+| [**tweet-sentiment**](https://github.com/LukeSantossz/tweet-sentiment-analysis) | Sentiment classification fine-tuned end to end | **0.887 macro F1**, +51.9% over the frozen-features baseline · **4.1x faster** Rust preprocessing at 1M tweets | `Python` `Rust` `PyTorch` `Polars` |
 | [**weather-forecast**](https://github.com/LukeSantossz/weather-forecast) | scikit-learn model running in the browser | **Matched to 1e-6** against Python · 200-tree forest serialized and traversed in TypeScript · test-first across 20+ features, traceable in the log | `Python` `TypeScript` `LightGBM` |
-| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture from a photo, fully offline | **3rd of 1,300+** at FETEPS 2025 · paper published at ICPA/ConBAP 2026 · on-device inference in a killable isolate, group-aware dataset splits | `Flutter` `Dart` `TFLite` |
-| [**my-framework**](https://github.com/LukeSantossz/my-framework) | Engineering standards, enforced inside AI agents | Cross-provider review gate · 101 shell tests · reused across 5 repositories | `Bash` `Node.js` `GitHub Actions` |
+| [**visiosoil-app**](https://github.com/LukeSantossz/visiosoil-app) | Soil texture from a photo, fully offline | **3rd of 1,300+** at FETEPS 2025 · poster at ICPA/ConBAP 2026 · 26 on-device descriptors, resampling byte-identical to Pillow · 992 Dart + 810 Python tests | `Flutter` `Dart` `scikit-learn` |
+| [**my-framework**](https://github.com/LukeSantossz/my-framework) | Engineering standards, enforced inside AI agents | v0.8.0 · 7 quality gates · 21 Go test packages | `Bash` `Node.js` `GitHub Actions` |
 | [**AutoMQ** `#3261`](https://github.com/AutoMQ/automq/pull/3261) | Accepted contribution to a Kafka-compatible streaming platform | Response-size validation so a request/response mismatch **fails cleanly instead of crashing**, shipped with **157 lines of tests** | `Java` |
 
 ### Built on teams
 
-Closed source. Numbers verified against the repositories I contributed to.
+Closed source. Numbers come from my own commits in those repositories.
 
 | | What it is | Proof | Stack |
 |---|---|---|---|
-| **Agent code-generation platform** | Spec in, working application out | **Up to 12 specialist agent phases** in 4 deterministic waves (code replaced the LLM orchestrator) · security verdict from **scanner receipts** judged by a pure policy function, not the model · **9-layer** agent guardrail stack | `Python` `LangGraph` `Kata` `Cloud Run` |
-| **AI advising platform** | Grounded answers over institutional data | Hybrid retrieval **built from scratch** over pgvector · refuse-before-call gate and post-answer verifier · **1,149 tests** | `Python` `FastAPI` `pgvector` `Anthropic` |
+| **Agent code-generation platform** | Idea in, verified application out | Replaced an LLM-driven loop with a **deterministic 4-wave scheduler** (up to 12 agent phases; 12/14 E2E runs approved) · security gate blocked **21/21 severe findings** in a 22-project pilot · **9-layer** guardrails · auto-repair fixed **14/21** gate failures | `Python` `LangGraph` `Semgrep` `Trivy` `Cloud Run` |
+| **AI college-admissions advisor** (early-stage U.S. edtech startup) | Grounded answers over ~1,800 institutions | Hybrid retrieval over pgvector · refuse-before-call gate and post-answer verifier · CI footprint **~9x smaller** · **561 tests** at launch | `Python` `FastAPI` `pgvector` `Anthropic` |
 
 ##
 
@@ -64,7 +64,6 @@ Closed source. Numbers verified against the repositories I contributed to.
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TF%20Lite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 </p>
 
 **`Backend & Data`**
